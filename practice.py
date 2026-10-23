@@ -149,12 +149,50 @@ Tax=3000
 Total_salary = Basic_salary+HRA+Travel_allowance-Tax
 print(Total_salary)'''
 
-'''Q-You have:total_minutes = 250
-Convert it into:
-Hours = 4
-Minutes = 10
-total_minutes = 250
+# Q-You have:total_minutes = 250
+# Convert it into:
+# Hours = 4
+# Minutes = 10
+
+'''total_minutes = 250
 hours= total_minutes//60
 minutes=total_minutes%60
 print("hours:", hours)
 print("minutes:", minutes)'''
+
+'''name=input("Enter your name")
+age=int(input("Enter your age"))
+print("Hello", name)
+print("You are", age , "years old")'''
+
+'''a = int(input("Enter first number :"))
+b = int(input("Enter second number :"))
+sum = a+b
+print("Sum is", sum)'''
+
+'''price = int(input("Enter price : "))
+quantity = int(input("Enter quantity : "))
+Total_cost = price*quantity
+print(Total_cost)'''
+
+'''a = int(input("Enter value : "))
+b = int(input("Enter value : "))
+a,b = b,a
+print(a,b)'''
+
+'''#Ask the user for their current age and display how old they will be next year.
+age = int(input("Enter the current age : "))
+age_of_next_year = age+1
+print("age of next year", age_of_next_year)'''
+
+'''a=int(input("Enter the number"))
+b=int(input("Enter the number"))
+add=a+b
+print("add = ", add)'''
+
+#Bill with discount: Ask for the original price and discount percentage. Calculate the discount amount and final price.
+'''total_bill=float(input("Enter the amount: " ))
+discount=float(input("Enter the discount percentage : "))
+discount_amount=total_bill*discount/100
+final_price=total_bill-discount_amount
+print(final_price)'''

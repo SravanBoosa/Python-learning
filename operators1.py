@@ -51,3 +51,21 @@ print(name.lower())'''
 #Ask for a sentence and print the number of characters in it
 '''senti = str(input("Enter sentence :"))
 print(len(senti))'''
+
+# a=30
+# b=50
+# print(a>b) ; print(a<b) ; print(a==b) ; print(a!=b) ; print(a>=b) ; print(a<=b)
+# print(25 <= 25)
+# print(25 >= 25)
+
+# disk_usage=85
+# print(disk_usage > 80)
+# print(disk_usage ==  85)
+# print(disk_usage < 90)
+# print(disk_usage >= 85)
+# print(disk_usage != 70)
+
+# name = "python"
+# print(name == "python")
+# print(name == "Python")
+

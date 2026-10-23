@@ -95,3 +95,95 @@ else:
     print("Not a Leap Year")'''
 
 
+'''marks=int(input("Enter marks : "))
+if(marks>=90):
+    print("it is grade A")
+elif(90>marks>=80):
+    print("it is grade B")
+elif(80>marks>=70):
+    print("it is grade C")
+elif(70>marks):    
+    print("it is grade D")'''
+
+
+#. Positive, Negative, or Zero
+'''num=int(input("Enter nuber : "))
+if(num==0):
+    print("number is zero")
+elif(num>0):
+    print("number is positive")
+elif(num<0):
+    print("number is negative")
+print("end")'''    
+
+#Take a number and check whether it is divisible by both 3 and 5, divisible by only one of them, or divisible by neither.
+
+'''n1=int(input("enter number : "))
+if(n1%3==0 and n1%5==0):
+    print("divisible by both numbers")
+elif(n1%3==0 or n1%5==0):
+    print("divisible by one of them")
+else:
+   print("divisible by neither")'''
+
+#Take three numbers and print the largest. Also handle the case where all three numbers are equal.
+
+'''n1=int(input("enter first number "))
+n2=int(input("enter second number "))
+n3=int(input("enter third number "))
+if(n1==n2==n3):
+    print("All numbers are equal")
+elif(n1>=n2 and n1>=n3):
+    print("n1 is largest number")
+elif(n2>=n3 and n2>=n1):
+    print("n2 is largest number")
+else:
+    print("n3 is largest number")
+print("end")'''
+
+#Take a year and determine whether it is a leap year.
+#Hint: A year divisible by 400 is a leap year. A year divisible by 100 but not 400 is not. Other years divisible by 4 are leap years.    
+
+'''year = int(input("enter year "))
+if(year%400==0):
+    print("Leap Year")
+elif(year%100==0):
+    print("Not leap year")
+elif(year%4==0):
+    print("leap Year")
+else:
+    print("Not leap yar")
+print("end")'''
+
+#Simple Calculator
+#Take two numbers and an operator (+, -, *, /). Use conditional statements to perform the operation. Handle division by zero and invalid operators.
+
+'''n1=float(input("enter first number :"))
+n2=float(input("enter second number :"))
+operator=input("enter operator(+,-,*,/,//,%):")
+
+if(operator == "+"):
+    print("add", n1+n2)
+elif(operator == "-"):
+    print("subtraction", n1-n2)
+elif(operator == "*"):
+    print("Multiplication", n1*n2)
+elif(operator == "/"):
+    if(n2!=0):
+        print("division", n1/n2)
+    else:
+        print("error and can't devide by zero")
+elif(operator == "//"):
+    if(n2!=0):
+        print("Floor Division", n1//n2)
+    else:
+        print("error and can't devide by zero")
+elif(operator == "%"):
+    if(n2!=0):
+        print("Modulo", n1%n2)
+    else:
+        print("Can't calculate the modulo")
+else:
+    print("invalid operator")
+    
+print("end")'''         

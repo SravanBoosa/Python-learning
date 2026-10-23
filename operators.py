@@ -17,7 +17,14 @@ a*=2
 b-=a
 print(a>b and b>0)'''
 
-x = 0
-x = float(x)
-y = 3 * x**3 - 2 * x**2 + 3 * x - 1
-print("y =", y)
+# x = 0
+# x = float(x)
+# y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+# print("y =", y)
+
+var = 0  # Assigning 0 to var
+print(var != 0)
+
+var = 1  # Assigning 1 to var
+print(var != 0)
+

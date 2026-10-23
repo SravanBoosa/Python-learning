@@ -12,9 +12,9 @@
 
 #print("I scream for ice cream!\nYou scream for ice cream!\nWe all scream for ice cream!")
  
-name = "sravan"
+'''name = "sravan"
 print(name)
 
 var = "3.8.5"
-print("Python version: ", var)
+print("Python version: ", var)'''
 
