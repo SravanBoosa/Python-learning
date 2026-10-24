@@ -187,3 +187,43 @@ else:
     print("invalid operator")
     
 print("end")'''         
+
+#Login System
+#Store a username and password in variables. Ask the user to enter both.
+
+'''username="rav"
+password="pass123"
+
+u1=input("Enter username")
+pw=input("Enter password")
+
+if(u1==username and password==pw):
+    print("Login Sucessfull")
+elif(pw!=password):    
+    print("Incorrect Password")
+elif(u1!=username):
+    print("Username Incorrect")
+else:
+    print("end")'''
+     
+
+#Electricity Bill Calculator Calculate the bill based on units consumed:
+#First 100 units: ₹2 per unit Next 100 units: ₹3 per unit Above 200 units: ₹5 per unit
+#Use progressive billing: each rate applies only to the units in that range.
+
+'''units=float(input("Total units consumed"))
+if(units<0):
+   print("invalid")
+elif(units<=100):
+    bill=2*units
+    print("Electricity bill", bill)
+elif(units<=200):
+    bill=(((100*2)+((units-100)*3)))
+    print("Electicity bill", bill)
+else:
+    bill=(((100*2)+(100*3)+((units-100)*5)))
+    print("Electicity bill", bill)
+print("end")'''    
+
+          
+
