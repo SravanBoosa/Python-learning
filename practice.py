@@ -196,3 +196,33 @@ discount=float(input("Enter the discount percentage : "))
 discount_amount=total_bill*discount/100
 final_price=total_bill-discount_amount
 print(final_price)'''
+
+'''i=1
+while(i<=100):
+    print("every number:", i)
+    i+=1
+print("end", i)'''    
+
+'''i=100
+while(i>=1):
+    print("Number", i)
+    i-=1
+print("end",i)''' 
+
+#multiplication table
+'''n = int(input("enter number:"))
+i = 1
+while(i<=10):
+    print(n*i)
+    i+=1
+print("multiplication table of",n)'''    
+
+#square of no 1-10
+'''i=1
+while(i<=10):
+    print(i**2)
+    #print(i*i)
+    i+=1
+print("squaure", i)'''    
+
+    

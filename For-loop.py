@@ -35,7 +35,7 @@ for i in range(1,101):
     count +=1
     print(count)'''    
 #Count how many odd numbers are between 1 and 100.
-count=0
+'''count=0
 for i in range(1,101,2):
     count +=1
-print("count is",count)
+print("count is",count)'''
