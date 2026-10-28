@@ -182,5 +182,73 @@ while(number%2==0):
 
 print("negative number")'''
 
+#Write a Python program that prints connection attempts numbered 1, 2, and 3, then prints Maximum attempts reached
+'''attempts=1
+while(attempts<=3):
+    print("Connection attempts", attempts)
+    attempts+=1
+print("Maximum attempts reached")'''
+
+#Imagine your script is checking server connection attempts. If the attempt number reaches 3, you want to stop the loop immediately using break.
+'''attempts=1
+while(attempts<=5):
+    print("attempts",attempts)
+    if(attempts==3):
+        break
+    attempts+=1
+print("loop stopped")'''
+    
+#You're writing a Python script that counts from 1 to 5. If you forget to update the counter, the loop may run forever
+#Write a corrected program that prints the numbers from 1 to 5 and then stops.
+
+'''count=1
+while(count<=5):
+    print("count", count)
+    count+=1
+print("count stop")'''
+
+#A deployment script checks numbered deployment steps. When it reaches step 4, it must stop immediately
+#Your task is to print steps 1, 2, 3, and 4, then print Deployment check completed.
+
+'''step=1
+while(step<=6):
+    print("Deployment step", step)
+    if(step==4):
+        break
+    step+=1
+print("Deployment Step Completed")'''    
+
+#cenario: You are writing a simple script to monitor a service. The service is initially unavailable, and your script should check its status repeatedly until it becomes available.
+
+'''check=1
+while(check<=3):
+    print("Checking service...")
+    check+=1
+print("Service is running")'''    
+
+
+#A script checks a service up to five times. In this exercise, assume the service becomes available on the third check.
+'''attempts=1
+while(attempts<=5):
+    print("checking service: attempt",attempts )
+  
+    if(attempts==3):
+        print("service is available")
+        break
+    attempts+=1
+print()'''
+        
+        
+
+print()
+
+
+
+
+
+
+
+
+
 
 

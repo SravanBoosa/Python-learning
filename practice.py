@@ -225,4 +225,13 @@ while(i<=10):
     i+=1
 print("squaure", i)'''    
 
-    
+  
+#Write a Python program using a while loop to print the even numbers from 2 to 10.
+'''i=2
+while(i<=10):
+    #if(i%2==0):
+    print("Even number", i)
+    i+=2
+print("end")'''      
+      
+      
