@@ -239,8 +239,71 @@ while(attempts<=5):
 print()'''
         
         
+#Imagine you're writing a Python script to monitor a service on a cloud server. The service is initially unavailable but becomes available on the third check.
+#For this exercise, we'll simulate the service status rather than connect to a real server
 
-print()
+'''attempt=1
+while(attempt<=5):
+    print("checking service...: attempt",attempt)
+   
+    if(attempt==3):
+        print("Service available")
+        break
+    else:
+         print("Service unavailable")
+    attempt+=1'''
+     
+
+#Server health checks--A script needs to simulate checking a server four times, printing the check number each time.
+'''check=1
+while(check<=4):
+    print("checking server health: check",check)
+    check+=1 
+print("Health check completed")'''
+    
+       
+'''check=1
+while(check<=5):
+    print("checking server health: check",check)
+    if(check==5):
+        print("Service unavailable after 5 attempts?")
+        break
+    check+=1'''
+
+#A script tries to connect to a server. The connection fails on the first two attempts and succeeds on the third.
+'''attempt=1
+while(attempt<=5):
+    print("Connection attempt :",attempt)
+    
+    if(attempt==3):
+        print("connection sucessfull")
+        break
+    print("connection failed")
+    attempt+=1'''
+    
+        
+#You are simulating a deployment process with five steps. The deployment should stop if step 4 is reached, and it should print a message confirming the deployment has stopped.
+'''step=1
+print("Start Deployment...")
+while(step<=5):
+    
+    print("Deployment Step :",step)
+    if(step==4):
+        print("Deployment stopped at step 4")
+        break
+    step+=1'''
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
