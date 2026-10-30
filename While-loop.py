@@ -294,18 +294,62 @@ while(step<=5):
     step+=1'''
     
 
+#Print numbers and calculate sum
+'''i=1
+sum=0
+while(i<=10):
+    print(i)
+    sum=sum+i  #sum = i + 1 replaces the previous total in every iteration.
+    i+=1       #sum = sum + i adds the current value of i to the previous total.
+     
+print(sum)'''    
+
+#Write a program to calculate the sum of even numbers from 1 to 20.
+'''i=2
+sum=0
+while(i<=20):
+    print(i)
+    sum=sum+i
+    i+=2
+print(sum)'''    
+   
+#Write a program to print the multiplication table of 5 using a while loop
+
+'''i=1
+while(i<=10):
+    print(i*5)
+    i+=1
+print("end")'''    
+    
+#Write a program to calculate the factorial of 5.   
+
+'''i=1
+factorial=1
+while(i<=5):
+    factorial=factorial*i #Multiplies the current factorial value by i and Stores the updated result back in factorial
+    i+=1
+print(factorial)'''    
 
 
+#Initialize i = 1.
+#Initialize factorial = 1.
+#Use a while loop that runs while i <= 5.
+#Multiply factorial by i in each iteration.
+#Increment i by 1.
+#Print the final factorial outside the loop.
 
 
+#Count numbers divisible by 3
+#Count how many numbers are divisible by 3.
 
-
-
-
-
-
-
-
+i=1
+count=0
+sum=0
+while(i<=30):
+    if(i%3==0):
+        count=count+1
+    i+=1
+print("Count of numberd divisable by 3:",count)
 
 
 
