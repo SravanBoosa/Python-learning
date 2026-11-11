@@ -29,7 +29,7 @@ print(type(tup))# class tuple , correct process '''
 
 # Slicing in tuples means extracting a portion of a tuple to create a new tuple.
 '''numbers = (10, 20, 30, 40, 50)
-print(numbers[1:4])'''
+print(numbers[1:4]) #prints from 1 to 3 o/p- 20,30,40'''
 
 #Slicing using negative index
 '''numbers = (10, 20, 30, 40, 50)
@@ -39,15 +39,15 @@ print(numbers[-4:-1]) # o/p (20,30,40)'''
 #Using a step
 
 '''numbers = (10, 20, 30, 40, 50, 60)
-print(numbers[::2])'''
+print(numbers[::2]) #o/p 10,30,50'''
 
 #Start from the beginning and take every second element.
 # Output: (10, 30, 50)
 
 #Reverse a tuple
 
-numbers = (10, 20, 30, 40)
-print(numbers[::-1])
+'''numbers = (10, 20, 30, 40)
+print(numbers[::-1]) #o/p (40, 30, 20, 10)'''
 
 #A step of -1 means move backwards.
 #Output: (40, 30, 20, 10)
@@ -58,11 +58,11 @@ print(numbers[::-1])
 # tup.index(el) # returns index first occurence
 #ex
 '''tup = (2,3,4,3,5) # Although 3 appears twice, index() returns the index of the first occurrence.
-print(tup.index(3)) # o/p shows the elememt ondex as 1 '''
+print(tup.index(3)) # o/p shows the elememt index as 1 '''
 
 #2. Count- The count() method returns the number of times a specified value appears in the tuple.
-'''tup = (2,3,4,2,5)
-print(tup.count(2)) # o/p- The value 2 appears 2 times.'''
+'''tup = (2,3,4,2,5,2)
+print(tup.count(2)) # o/p- The value 2 appears 3 times.'''
 
 '''list = []
 movie1 = input("Enter 1st movie name :")
@@ -79,5 +79,37 @@ print(grade.count('A')) '''
 '''grade = ['C', 'D', 'A', 'A', 'B', 'B', 'A']
 grade.sort()
 print(grade)'''
+
+
+#iterate through the tuple using a for loop.
+#Print every technology.
+#Count the number of technologies.
+#Print the count.
+
+'''technologies = ("Linux", "AWS", "Docker", "Kubernetes", "Python")
+count=0
+for tech in technologies:
+    print(tech)
+    count+= 1 #annot add tech inplace of 1,these strings to an integer counter
+print("Total count is : ",count)'''    
+
+#Print the index number.Print the corresponding technology name.
+'''technologies = ("Linux", "AWS", "Docker", "Kubernetes", "Python")
+count=0
+for tech in range(len(technologies)):
+    print(technologies[tech])
+    count+= 1
+print(technologies[0:4])    #Retrieves the first four items
+print("Total count", count)'''
+
+#len(technologies) returns the number of items (5).range(5) generates index numbers: 0, 1, 2, 3, 4. tech stores those index numbers, not the technology names.
+
+
+
+
+
+
+
+
 
 

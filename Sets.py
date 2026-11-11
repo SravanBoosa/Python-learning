@@ -1,4 +1,4 @@
-#Set is a collection of the unrderes items
+#Set is a collection of the unordered items
 #each element in the set must be unique & immutable
 # we can't store list and dictionary in set becoz both are mutable
 '''collection = {1,2,3,4}
@@ -54,4 +54,45 @@ print(set2) # o/p {2,3,4,5}'''
 '''set1 = {1,2,3}
 set2 = {2,3,4,5}
 print(set1.intersection(set2)) # o/p - {2,3}'''
+
+
+
+#Iterate through the set using a for loop.
+#Print all unique server names.
+#Count the number of unique servers.
+
+'''servers = {
+    "Web01", "Web02", "Web01",
+    "DB01", "Web02", "App01"
+}
+
+count=0
+for server in servers:
+    print(server)
+    count+= 1
+print("total count:", count)'''     
+    
+#Find common applications using intersection.
+#Find applications available only on Windows using difference.
+#Find applications available only on Linux using difference.
+#Iterate through common result using for loops and print it.
+
+'''windows_apps = {"Chrome", "Zoom", "Teams", "Python"}
+linux_apps = {"Python", "Docker", "Git", "Chrome"}
+
+
+print(windows_apps.intersection(linux_apps))
+print(windows_apps.difference(linux_apps))
+print(linux_apps.difference(windows_apps))
+common_apps = windows_apps.intersection(linux_apps)
+print("common_apps")
+for app in common_apps:
+    print(app)'''
+
+
+
+
+
+
+
 
