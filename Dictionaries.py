@@ -1,5 +1,6 @@
 # Dictionaries store data values in key:value pairs
-#They are unordered,mutable(changeble) and don't allow duplicates
+#They are unordered,mutable(changeble) and don't allow duplicate keys
+#after evey line ends comma, is mandotory (Not for last line which ends before closing bracket)
 '''dict = {
     "Key" : "value",
     "name" : "sravan",
@@ -10,6 +11,14 @@
     "topics" : ("lists","loops") # tuples
 }
 print(dict)'''
+
+'''info = {
+ "name" : "sravan",
+ "position" : ("Devops","cloud","Aspirant"),
+ "skills" : ["aws","Linux","git","python","Docker","Terraform","CI/CD"]
+}
+print(info)'''
+ 
 
 #  We can search the values with the key name , ex below
 '''print(dict["name"])
@@ -40,34 +49,53 @@ print(null_dict)'''
 }
 print(student)
 print(student["Subjects"])
-print(student["Subjects"]["Maths"])''' 
+print(student["Subjects"]["Maths"])'''
+
+'''info = {
+  "Name" : "Sravan",
+  "skills" : {
+      "Cloud" : "AWS",
+      "DEvops" : ["Git","Docker","Kubernetes","Terraform","Jenkins"],
+      "Programming" : "Python",
+      "IAC" : "Terraform",
+
+      }
+}
+print(info)
+print(info["skills"])
+print(info["skills"]["IAC"])'''
+
+
+
+
 
 #dictionary methods
 #1.keys() - returns a list of all the keys in the dictionary
+
 '''info = {
     "Key" : "value",
     "name" : "sravan",
     "learning" : "coding"
 }'''
 
-'''print(info.keys()) # prints only keys details and it won't take nested keys
+'''print(info.keys()) # prints only keys details and it won't take nested keys'''
 
  # we can convert above keys to list or tuples also 
-print(list(info.keys())) # converts keys to list
+'''print(list(info.keys())) # converts keys to list
 print(tuple(info.keys())) # converts keys to tuple 
 print(len(info.keys())) # prints the length of keys in the dictionary
 print(len(list(info.keys()))) # prints the length of keys in the dictionary after converting to list '''
 
 # 2.  .values() - returns a list of all the values in the dictionary
 '''print(info.values()) # prints only values details and it won't take nested values
-print(list(info.values())) # converts values to list ''' 
+print(list(info.values())) # converts values to list '''
 
 #3. items() - returns a list of all the key-value pairs as tuples
 
 '''print(info.items()) # prints only key-value pairs as tuples and it won't take nested values
-print(list(info.items()))  
+print(list(info.items()))'''
 
-pairs = list(info.items())
+'''pairs = list(info.items())
 print(pairs[0]) # prints the first key-value pair as tuple '''  
 
 # 4. get() - returns the key according to the value 
@@ -79,4 +107,74 @@ print(info.get("learning")) '''
 '''info.update({"pl" : "python"})  
 info.update({"topic" : "lists", "topic2" : "loops" }) # add multiple key-values also
 print(info) # adds the new key-value pair to the existing dictionary  '''
+
+
+info = {
+    "Key" : "value",
+    "name" : "sravan",
+    "learning" : "coding"
+}    
+info.update({"job" : "devops"})
+print(info)
+
+#print(info.get("learning"))
+
+
+
+#print(tuple(info.items()))
+#print(type(tuple(info)))
+
+
+#Iterate through the dictionary using items().
+#Print running instances.
+#Print stopped instances.
+#Count running and stopped instances separately.
+#Display the final counts.
+
+
+#Iterate through the dictionary using items().
+#Print running instances.
+#Print stopped instances.
+#Count running and stopped instances separately.
+#Display the final counts.
+
+aws_instances = {
+    "Web01": "Running",
+    "Web02": "Stopped",
+    "DB01": "Running",
+    "App01": "Stopped",
+    "DB02": "Running"
+}
+
+count=0
+for item in aws_instances:
+   print(item["Running"])
+   print(item["stopped"])
+   count += item
+print("Total count", count)
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
