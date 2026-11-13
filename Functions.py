@@ -26,7 +26,27 @@ print(cal_prod(17,19))'''
 print(cal_avg(78,85,97))'''
 
 
-
+'''
 ------------------
 Function Types
-------------------
+------------------ '''
+
+'''def cal_sum(a=5, b=6):
+    print(a+b)
+    return(a+b)
+print(cal_sum()) '''
+
+'''def cal_prod(a,b=5):
+    return(a*b)
+print(cal_prod(3))'''
+
+'''def square(s=6):
+    return s**2
+print(square())
+print(square(9))'''
+
+'''def cal_diff(a,b):
+    result= a-b
+    return result
+result = cal_diff(10,5)
+print(result)'''  
