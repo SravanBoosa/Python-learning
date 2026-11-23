@@ -50,3 +50,39 @@ print(square(9))'''
     return result
 result = cal_diff(10,5)
 print(result)'''  
+
+
+'''def print_info(name,age=18):
+    print(name,age)
+print("name", 19)'''
+
+'''def multi_num(a,b=6):
+   
+    return(a*b)
+print(multi_num(5))'''
+
+#def input(input_num()):
+#   return int(input()) # defines a function to get numeric input from the user:
+#asks for input and shows in display , not saved
+
+'''def multi_num():
+    a=int(input("Enter first number :"))
+    b=int(input("Enter second number :"))
+    result=  a*b
+    return result
+print(multi_num())'''
+
+
+'''def multi_num(a,b):
+    result = a*b  ##better method ""Outside the function,
+    return result # This function accepts two parameters. It receives values from outside.
+a=int(input("Enter first number :"))
+b=int(input("Enter second number :"))
+
+print(multi_num(a,b))'''
+
+''def multi_num(a,b):
+    return a*b
+print(multi_num(5,7))'''
+               
+   
