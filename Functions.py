@@ -1,3 +1,46 @@
+'''def message():
+    print("Hello")
+message()'''
+
+'''def hi(): ##It does not accept any arguments.
+    print("hi")
+
+hi(5) #You are passing one argument (5), which the function doesn't expect. '''
+
+
+'''def message():
+    print("Enter a value: ")
+message() ###This calls or executes the function we created.#It displays:Enter value:  '''
+
+
+'''def message(name):
+    print("Hello", name)
+
+message("Rahul")
+message("Priya")'''
+
+'''def message():
+    print("Enter a value: ") #Whenever this function is called, it displays "Enter a value:".
+
+message() #This calls or executes the function we created.#It displays:Enter value:
+a = int(input())  input takes a value from the user  & stores that number in a variable called a.
+message()
+b = int(input())
+message()
+c = int(input())
+
+print("volues of a, b,c:", a,b,c)'''
+
+'''def mes():
+    print("Enter name:")
+mes()
+a=input()
+print("Name is :", a)'''
+
+#---------------
+#---------------
+
+
 '''def cal_sum(a,b):
     sum = a+b
     return sum
@@ -81,8 +124,23 @@ b=int(input("Enter second number :"))
 
 print(multi_num(a,b))'''
 
-''def multi_num(a,b):
+'''def multi_num(a,b):
     return a*b
 print(multi_num(5,7))'''
-               
+
+'''cities=["hyderabad", "Bengaluru", "Vizag", "Chennai"]
+sports=["Football", "cricket"]
+def print_len(list):
+    print(len(list))
+print_len(cities)
+print_len(sports)'''
+
+#---------
+#---------
+
+
+
+
+
+
    
